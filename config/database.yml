@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: utf8
-  database: inventory_development
+  database: not_ramen_dev
   host: localhost
   pool: 5
   timeout: 5000
@@ -9,13 +9,13 @@ development:
 test:
   adapter: postgresql
   encoding: utf8
-  database: inventory_test
+  database: not_ramen_test
   pool: 5
   timeout: 5000
 
 production:
   adapter: postgresql
   encoding: utf8
-  database: inventory_production
+  database: not_ramen_production
   pool: 5
   timeout: 5000
