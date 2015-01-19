@@ -45,3 +45,4 @@ group :development, :test do
   gem 'spring'
 end
 
+ruby "2.1.5"
